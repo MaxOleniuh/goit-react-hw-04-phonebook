@@ -13,7 +13,7 @@ const List = ({ contacts, handleDelete }) => {
   );
 };
 List.propTypes = {
-  contacts: PropTypes.array.isRequired,
+  contacts: PropTypes.array,
   handleDelete: PropTypes.func.isRequired,
 };
 
